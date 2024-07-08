@@ -80,3 +80,66 @@
         padding-left: 10px; /* Further adjust padding for smaller screens */
     }
 }
+
+
+
+.why-us-explore-item {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.why-us-section-title {
+  margin-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.explore-item-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666;
+}
+
+.youtube-thumbnail-section {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.youtube-thumbnail-link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.youtube-thumbnail {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+.youtube-thumbnail-link:hover .youtube-thumbnail {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.youtube-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #ff0000; /* YouTube red */
+  transition: opacity 0.3s ease;
+}
+
+.youtube-thumbnail-link:hover .youtube-icon {
+  opacity: 1;
+}
