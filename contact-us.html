@@ -4,20 +4,23 @@
 <!-- Mirrored from demo.awaikenthemes.com/html-preview/weebix/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Jul 2024 09:05:16 GMT -->
 <head>
 	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
-	<!-- Page Title -->
-	<title>Digixseo</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Digixseo offers expert digital marketing solutions to help your business grow online. From SEO and PPC to social media management, we provide tailored strategies for success.">
+<meta name="keywords" content="Digital Marketing, SEO, PPC, Social Media Management, Online Marketing, Business Growth, Digixseo">
+<meta name="author" content="Digixseo">
+<!-- Page Title -->
+
+<title>Digixseo - Best SEO & Digital Marketing Services in Delhi</title>
 	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="images/icons8-d-50.png">
 	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="icon" href="https://www.google.com/s2/favicons?domain=example.com" type="image/x-icon">
+
 	<!-- Bootstrap Css -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<!-- SlickNav Css -->
@@ -32,8 +35,8 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<!-- Main Custom Css -->
 	<link href="css/custom.css" rel="stylesheet" media="screen">
-	<link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body class="tt-magic-cursor">
 
@@ -67,10 +70,14 @@
                                 </li>                                
                                 <li class="nav-item"><a class="nav-link" href="about.html">about us</a></li>
                                 <li class="nav-item"><a class="nav-link" href="services.html">services</a></li>
+                                                                   <li class="nav-item"><a class="nav-link" href="ourwork.html">Our Projects</a></li>
+
+                                                                           <li class="nav-item"><a class="nav-link" href="blog.html">blog</a></li>
+                        
                                 <li class="nav-item"><a class="nav-link" href="contact-us.html">
                                     Contact</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">blog</a></li>
-                                </li>
+                              
+                           
                                 <li class="nav-item highlighted-menu"><a class="nav-link" href="contact-us.html">free consultation</a></li>                               
                             </ul>
                         </div>
@@ -193,52 +200,73 @@
 					<!-- Contact Details Section End -->
                 </div>
 
-                <div class="col-lg-6">
-                    <div class="contact-form-box wow fadeInUp" data-wow-delay="0.5s">
-						<!-- Contact Form Start -->
-						<div class="contact-form">
-							<form id="contactForm" action="#" method="POST" data-toggle="validator">
-								<div class="row">
-									<div class="form-group col-md-6 mb-4">
-										<input type="text" name="fname" class="form-control" id="fname" placeholder="first name" required >
-										<div class="help-block with-errors"></div>
-									</div>
+              <div class="col-lg-6">
+  <div class="contact-form-box wow fadeInUp" data-wow-delay="0.5s">
+    <!-- Contact Form Start -->
+    <div class="contact-form">
+      <form id="contactForm" class="row g-3">
+        <div class="form-group col-md-6 mb-4">
+          <label for="fname">Your Name</label>
+          <input
+            type="text"
+            name="fname"
+            class="form-control"
+            id="fname"
+            placeholder="Full Name"
+            required
+          />
+        </div>
 
-									<div class="form-group col-md-6 mb-4">
-										<input type="text" name="lname" class="form-control" id="lname" placeholder="last name" required >
-										<div class="help-block with-errors"></div>
-									</div>
+        <div class="form-group col-md-6 mb-4">
+          <label for="phone">Phone</label>
+          <input
+            type="tel"
+            name="phone"
+            class="form-control"
+            id="phone"
+            placeholder="Phone"
+            required
+          />
+        </div>
 
-									<div class="form-group col-md-6 mb-4">
-										<input type="text" name="phone" class="form-control" id="phone" placeholder="Phone" required >
-										<div class="help-block with-errors"></div>
-									</div>
+        <div class="form-group col-md-12 mb-4">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            id="email"
+            placeholder="Email"
+            required
+          />
+        </div>
 
-                                    <div class="form-group col-md-6 mb-4">
-										<input type="email" name ="email" class="form-control" id="email" placeholder="email" required >
-										<div class="help-block with-errors"></div>
-									</div>
+        <div class="form-group col-md-12 mb-4">
+          <label for="msg">Message</label>
+          <textarea
+            name="msg"
+            class="form-control"
+            id="msg"
+            rows="7"
+            placeholder="Message"
+            required
+          ></textarea>
+        </div>
 
-									<div class="form-group col-md-12 mb-4">
-										<input type="text" name="subject" class="form-control" id="subject" placeholder="subjects" required >
-										<div class="help-block with-errors"></div>
-									</div>
+        <div class="col-md-12">
+          <button type="submit" class="btn-default">Send a Message</button>
+          <div id="msgSubmit" class="h3 text-left hidden"></div>
+        </div>
+      </form>
+      <div class="success-message" id="success_message" style="display: none;">
+        <p>Your message has been sent successfully! We will get back to you soon.</p>
+      </div>
+    </div>
+    <!-- Contact Form End -->
+  </div>
+</div>
 
-									<div class="form-group col-md-12 mb-4">
-										<textarea name="msg" class="form-control" id="msg" rows="7" placeholder="message" required></textarea>
-										<div class="help-block with-errors"></div>
-									</div>
 
-									<div class="col-md-12">
-										<button type="submit" class="btn-default">send a message</button>
-										<div id="msgSubmit" class="h3 text-left hidden"></div>
-									</div>
-								</div>
-							</form>
-						</div>
-						<!-- Contact Form End -->
-					</div>
-                </div>
             </div>
         </div>
     </div>
@@ -255,7 +283,27 @@
 	</div>
 	<!-- Google Map Section End -->
 
-    <!-- Footer Start -->
+    <!-- Social icons -->
+    <div class="icon-container">
+      <div class="icon whatsapp">
+        <a
+          href="https://api.whatsapp.com/send?phone=+919667674332&text=Hi!%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+          target="_blank"
+        >
+          <img src="images/whatsapp.png" alt="WhatsApp" />
+        </a>
+      </div>
+
+      <div class="icon pbmit-call-text">
+        <a href="tel:+91 9667674332" target="_blank">
+          <img src="images/telephone.png" alt="telephone" />
+        </a>
+      </div>
+    </div>
+
+    <!-- Social icons -->
+
+     <!-- Footer Start -->
 	<footer class="main-footer">
         <div class="container">
 			<div class="row">
@@ -294,6 +342,8 @@
 										<li><a href="index.html">Home</a></li>
 										<li><a href="about.html">About Us</a></li>
 										<li><a href="services.html">Services</a></li>
+                                        <li><a href="ourwork.html">Our Projects</a></li>
+
 										<li><a href="blog.html">Blog</a></li>
 										<li><a href="contact-us.html">Contact Us</a></li>
 									</ul>
@@ -392,6 +442,45 @@
     <script src="js/wow.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  // Initialize EmailJS with your Public Key
+  emailjs.init("MS_K_fyXbh4MAkq0S");
+
+  document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    // Retrieve values from the form
+    var name = document.getElementById("fname").value;
+    var phone = document.getElementById("phone").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("msg").value;
+
+    // Prepare data to send via EmailJS
+    var templateParams = {
+      to_name: "DigiXseo Team",
+      user_name: name,
+      user_phone: phone,
+      user_email: email,
+      user_message: message,
+    };
+
+    // Send the data using EmailJS
+    emailjs.send("service_omiraid", "template_js80qil", templateParams).then(
+      function (response) {
+        console.log("SUCCESS!", response.status, response.text);
+        document.getElementById("success_message").style.display = "block";
+        // Clear the form after submission
+        document.getElementById("contactForm").reset();
+      },
+      function (error) {
+        console.error("FAILED...", error);
+        alert("There was an error sending your message. Please try again.");
+      }
+    );
+  });
+</script>
+
 </body>
 
 <!-- Mirrored from demo.awaikenthemes.com/html-preview/weebix/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Jul 2024 09:05:17 GMT -->
